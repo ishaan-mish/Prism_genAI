@@ -1,0 +1,72 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+*.pytest_cache/
+*.mypy_cache/
+*.coverage
+.coverage.*
+*.log
+
+# ==============================
+# Ren'Py
+# ==============================
+# Cache and compiled script files
+cache/
+*.rpyc
+*.rpyb
+*.rpyc.zip
+
+# Screenshots, saves, backups
+saves/
+screenshots/
+backup/
+
+# ==============================
+# React / Node.js
+# ==============================
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# dotenv
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Misc
+# ==============================
+*.swp
+*.swo
+*.bak
+*.tmp
